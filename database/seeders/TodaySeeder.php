@@ -2,12 +2,12 @@
 
 namespace Database\Seeders;
 
-use App\Models\Upcoming;
+use App\Models\Today;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 use Faker\Factory;
 
-class UpcomingSeeder extends Seeder
+class TodaySeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -19,11 +19,10 @@ class UpcomingSeeder extends Seeder
         $faker = Factory::create();
 
         for ($i = 0; $i < 5; $i++) {
-            Upcoming::create([
+            Today::create([
                 'completed' => false,
                 'title' => $faker->sentence($nbWords = 4, $variableWords = false),
                 'approved' => false,
-                'waiting' => true,
                 'taskId' => Str::random(10)
             ]);
         }
