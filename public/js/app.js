@@ -5330,6 +5330,68 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -5345,6 +5407,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -28204,7 +28286,12 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("left-body"), _vm._v(" "), _c("right-body")], 1)
+  return _c(
+    "div",
+    { attrs: { id: "body" } },
+    [_c("left-body"), _vm._v(" "), _c("right-body")],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -28236,7 +28323,103 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("h2", [_vm._v("Left Body")])])
+    return _c("div", { attrs: { id: "left" } }, [
+      _c("div", { staticClass: "hamburguer" }, [
+        _c("img", {
+          attrs: { src: "/images/hamburger.png", width: "30px", alt: "menu" },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "profile" }, [
+        _c("h1", [_vm._v(" Hi Jorge")]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("Let's make project more amazing")]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "search" }, [
+        _c("input", {
+          attrs: { type: "text", placeholder: "Search your project" },
+        }),
+        _vm._v(" "),
+        _c("img", { attrs: { src: "/images/search.png", alt: "search" } }),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "project" }, [
+        _c("h3", [_vm._v("Projects "), _c("span", [_vm._v("(18)")])]),
+        _vm._v(" "),
+        _c("div", { staticClass: "projects" }, [
+          _c("div", { staticClass: "a-project" }, [
+            _c("div", { staticClass: "box-color" }, [
+              _c("img", {
+                attrs: { src: "/images/overlay.png", alt: "overlay" },
+              }),
+              _vm._v(" "),
+              _c("span", [_vm._v("PT")]),
+            ]),
+            _vm._v(" "),
+            _c("h6", [_vm._v("Development")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "a-project" }, [
+            _c("div", { staticClass: "box-color" }, [
+              _c("img", {
+                attrs: { src: "/images/overlay.png", alt: "overlay" },
+              }),
+              _vm._v(" "),
+              _c("span", [_vm._v("PT")]),
+            ]),
+            _vm._v(" "),
+            _c("h6", [_vm._v("Desing")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "a-project" }, [
+            _c("div", { staticClass: "box-color" }, [
+              _c("img", {
+                attrs: { src: "/images/overlay.png", alt: "overlay" },
+              }),
+              _vm._v(" "),
+              _c("span", [_vm._v("PT")]),
+            ]),
+            _vm._v(" "),
+            _c("h6", [_vm._v("Testing")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "a-project" }, [
+            _c("div", { staticClass: "box-color" }, [
+              _c("img", {
+                attrs: { src: "/images/overlay.png", alt: "overlay" },
+              }),
+              _vm._v(" "),
+              _c("span", [_vm._v("PT")]),
+            ]),
+            _vm._v(" "),
+            _c("h6", [_vm._v("Medium Draft")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "a-project" }, [
+            _c("div", { staticClass: "box-color" }, [
+              _c("img", {
+                attrs: { src: "/images/overlay.png", alt: "overlay" },
+              }),
+              _vm._v(" "),
+              _c("span", [_vm._v("PT")]),
+            ]),
+            _vm._v(" "),
+            _c("h6", [_vm._v("Landing Page")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "a-project" }, [
+            _c("div", { staticClass: "box-color" }, [
+              _c("img", { attrs: { src: "/images/plus.png", alt: "plus" } }),
+              _vm._v(" "),
+              _c("span"),
+            ]),
+            _vm._v(" "),
+            _c("h6", [_vm._v("Add Project")]),
+          ]),
+        ]),
+      ]),
+    ])
   },
 ]
 render._withStripped = true
@@ -28268,7 +28451,35 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("h2", [_vm._v("Right body")])])
+    return _c("div", { attrs: { id: "right" } }, [
+      _c("h1", [_vm._v("Development CRM")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "horizontal" }, [
+        _c("img", {
+          attrs: { src: "/images/horizontal.png", alt: "horizontal" },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum fuga ab recusandae et dolorum ratione a officia culpa ducimus vitae ea accusantium ex. Fuga excepturi numquam doloribus dignissimos rerum?\n  "
+        ),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "task" }, [
+        _c("div", { staticClass: "add-tasks" }, [
+          _c("h2", [_vm._v("Today's Task")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "add-action" }, [
+            _c("img", {
+              attrs: { src: "/images/add.png", width: "50px", alt: "add" },
+            }),
+          ]),
+        ]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "tasks-list" }),
+      ]),
+    ])
   },
 ]
 render._withStripped = true
