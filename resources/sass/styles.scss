@@ -321,7 +321,8 @@ img {
               justify-content: space-between;
 
               h2 {
-                  font-family: "MyriadProBold";
+                  //font-family: "MyriadProBold";
+                  font-family: 'Open Sans', sans-serif;
                   font-size: 15px;
                   font-weight: 400;
               }
@@ -340,6 +341,7 @@ img {
 
           ul.tasks-list {
               margin-top: 15px;
+              padding-left: 0px;
 
               li {
                   display: flex;

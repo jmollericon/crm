@@ -216,7 +216,7 @@ img {
         justify-content: space-between; }
         .mcontainer #body #right .tasks .add-tasks h2,
         .mcontainer #body #right .upcoming .add-tasks h2 {
-          font-family: "MyriadProBold";
+          font-family: 'Open Sans', sans-serif;
           font-size: 15px;
           font-weight: 400; }
         .mcontainer #body #right .tasks .add-tasks img,
@@ -232,7 +232,8 @@ img {
         caret-color: var(--primary1); }
       .mcontainer #body #right .tasks ul.tasks-list,
       .mcontainer #body #right .upcoming ul.tasks-list {
-        margin-top: 15px; }
+        margin-top: 15px;
+        padding-left: 0px; }
         .mcontainer #body #right .tasks ul.tasks-list li,
         .mcontainer #body #right .upcoming ul.tasks-list li {
           display: flex;
